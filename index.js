@@ -1,6 +1,7 @@
 require('dotenv').config();
 const axios = require('axios');
 const Discord = require('discord.js');
+const keep_alive = require("./keep_alive");
 
 client = new Discord.Client({intents: 3072})
 
